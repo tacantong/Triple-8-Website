@@ -1,0 +1,44 @@
+.Header-Wrapper {
+    position: relative;
+    padding-bottom: 20px;
+    font-family: "Slim Joe", "Bariol", Verdana, Tahoma;
+}
+
+.Header-Image {
+    width: 100%;
+    height: auto;
+}
+
+.Header-Label {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);;
+    -moz-transform: translateX(-50%);;
+    -ms-transform: translateX(-50%);;
+    -o-transform: translateX(-50%);;
+    transform: translateX(-50%);;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.6);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@media (min-width: 768px) {
+    .Header-Label {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 560px) and (max-width: 788px) {
+    .Header-Label {
+        font-size: 24px;
+    }
+}

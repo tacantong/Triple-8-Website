@@ -1,0 +1,29 @@
+.Gallery-Header {
+    text-align: center;
+    font-family: "Slim Joe", "Bariol", Verdana, Tahoma;
+}
+
+.Gallery-Title {
+    font-size: 32px;
+}
+
+.Gallery-Sub-Title {
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+.Gallery-Sub-Title > a {
+    text-decoration: none;
+}
+
+.Gallery-Tab {
+    padding-top: 10px;
+}
+.Gallery-Tab > li {
+    background: none;
+}
+.Gallery-Tab > li.active > a, .Gallery-Tab > li.active > a:focus, .Gallery-Tab > li.active > a:hover {
+    background-color: transparent;
+}
+.Gallery-Tab > li > a:hover {
+    color: #eb005d;
+}

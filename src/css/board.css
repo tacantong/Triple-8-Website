@@ -1,0 +1,13 @@
+.Board-Title {
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.Board-Text {
+    font-size: 8px;
+}
+@media (min-width: 650px) {
+    .Board-Text {
+        font-size: 18px;
+    }
+}

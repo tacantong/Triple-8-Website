@@ -1,0 +1,25 @@
+.About-Title {
+    font-weight: bolder;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.About-Video-Header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.About-Refresh {
+    cursor: pointer
+}
+
+.About-Video {
+    position: relative;
+    padding-bottom: 450px;
+}
+
+@media (min-width: 768px) {
+    .About-Video {
+        padding-bottom: 220px;
+    }
+}

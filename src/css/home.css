@@ -1,0 +1,56 @@
+.Carousel-Caption h1 {
+    font-family: "Big John", "Bariol", Verdana, Tahoma;
+    font-size: 20px;
+}
+
+.Announcement-Wrapper {
+    text-align: center;
+}
+.Announcement-Title {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.Announcement-Text {
+    padding-bottom: 20px;
+}
+
+.Home-Blurb {
+    padding-top: 30px;
+}
+
+.Home-Info {
+    padding-top: 40px;
+}
+
+.Home-Info-Title {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.Home-Info-Text {
+    padding-bottom: 20px;
+}
+
+.Home-Info-Image {
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.Home-Info-Image:hover {
+    opacity: 0.6;
+}
+
+.Home-Image-Wrapper {
+    padding-bottom: 10px;
+}
+
+@media (min-width: 560px) {
+    .Carousel-Caption h1{
+        font-size: 36px;
+    }
+}

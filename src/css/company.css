@@ -1,0 +1,88 @@
+.Class-Header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.Class-Header-Divider {
+    margin: 0;
+}
+
+.Dancer-Div {
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.Dancer-Wrapper {
+    cursor: pointer;
+    font-size: 10px;
+}
+.Dancer-Img {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.First-Name {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    margin:0 -30%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.Last-Name {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+    margin:0 -30%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.Dancer-Wrapper:hover > .First-Name {
+    opacity: 1;
+    margin:0 0;
+    visibility: visible;
+}
+.Dancer-Wrapper:hover > .Last-Name {
+    opacity: 1;
+    margin:0 0;
+    visibility: visible;
+}
+.Dancer-Wrapper:hover > .Dancer-Img {
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+}
+
+.Modal-Wrapper {
+    color: black;
+}
+.Dancer-Modal-Header {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+@media (min-width: 768px) {
+    .Dancer-Wrapper {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 788px) {
+    .Dancer-Wrapper {
+        font-size: 18px;
+    }
+}

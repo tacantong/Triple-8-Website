@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Bariol";
+    src: url('../fonts/bariol_regular-webfont.ttf');
+}
+@font-face {
+    font-family: "Big John";
+    src: url('../fonts/big_john.otf');
+}
+@font-face {
+    font-family: "Slim Joe";
+    src: url('../fonts/slim_joe.otf');
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    font-family: "Bariol", Verdana, Tahoma;
+    font-size: 18px;
+}
+a {
+    color: #eb005d;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-default {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-toggle {
+    z-index: 20;
+}
+
+.logo-img {
+    margin-top:-6px;
+    width: 30px;
+}
+
+.title-text{
+    cursor: default;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.title-img {
+    cursor: pointer;
+    margin: auto;
+    width: 180px;
+}
+
+.footer {
+    position: absolute;
+    padding-top: 50px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.footer-container {
+    color: #AAA;
+    border-top: 1px solid #CCC;
+    padding: 20px 0 40px 0;
+}
+
+.footer-link {
+    transition: all 0.3s;
+}
+
+.footer-link-img {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 28px;
+}
+
+.footer-section {
+    width: 100%;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+/* menu item bar*/
+ul > li {
+    background: url('../images/title_bar.gif') 0 15px no-repeat;
+}
+ul > li:first-child {
+    background: none;
+}
+
+ul > li > a {
+    font-size: 16px;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-default {
+        border-radius: 5px;
+        margin: 10px;
+    }
+
+    .title-text {
+        position: relative;
+    }
+
+    .footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: inline-flex;
+    }
+    .footer-section {
+        width: 33%;
+    }
+    .footer-link-img {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 991px) {
+    ul > li > a {
+        font-size: 20px;
+    }
+}
+
+.Next-Show {
+    text-align: right;
+}

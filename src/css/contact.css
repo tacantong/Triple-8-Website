@@ -1,0 +1,30 @@
+.Contact-Media {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.Contact-Input {
+    color: #eb005d;
+}
+.Contact-Input:-moz-placeholder {
+    color: #eb005d;
+}
+.Contact-Input:-ms-input-placeholder {
+    color: #eb005d;
+}
+.Contact-Input::-webkit-input-placeholder {
+    color: #eb005d;
+}
+
+.Contact-Button {
+    color: #eb005d;
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+    .Contact-Button {
+        font-size: 20px;
+        padding: 10px 5px;
+    }
+}
