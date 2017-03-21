@@ -19,9 +19,9 @@ const Board = React.createClass ({
                         </div>
                     </div>
                     {
-                        officers.map(function(obj) {
+                        officers.map(function(obj, index) {
                             return (
-                                <div className="row Board-Text">
+                                <div className="row Board-Text" key={index}>
                                     <div className="col-xs-4">
                                         {obj.position}
                                     </div>

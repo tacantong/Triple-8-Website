@@ -42,10 +42,10 @@ const ImageGallery = React.createClass ({
                     className="Gallery-Tab"
                 >
                     {
-                        shows.map(function(show) {
+                        shows.map(function(show, index) {
                             var obj = GALLERY_DATA[show];
                             return (
-                                <NavItem eventKey={show}>{obj.year + " " + obj.title}</NavItem>
+                                <NavItem eventKey={show} key={index}>{obj.year + " " + obj.title}</NavItem>
                             );
                         })
                     }

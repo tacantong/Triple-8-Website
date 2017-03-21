@@ -1,0 +1,127 @@
+{
+  "INK": {
+    "name": "INK",
+    "year": 2016,
+    "video": "https://www.youtube.com/embed/igLtZoX6CYY?list=PLL3D9fP4iNurZUdB6T5dFXBQxIMam86Kc",
+    "image": "./src/images/Headers/ink.png",
+    "prevShow": {
+      "key": "FORTUNE",
+      "name": "Fortune"
+    }
+  },
+  "FORTUNE": {
+    "name": "Fortune",
+    "year": 2015,
+    "video": "https://www.youtube.com/embed/j3cQYjVmU5c?list=PLL3D9fP4iNur0EkYPpiQzYikXLsrurq-C",
+    "image": "./src/images/Headers/fortune.jpg",
+    "prevShow": {
+      "key": "D8TE_NIGHT",
+      "name": "D8te Night"
+    },
+    "nextShow": {
+      "key": "INK",
+      "name": "INK"
+    }
+  },
+  "D8TE_NIGHT": {
+    "name": "D8te Night",
+    "year": 2014,
+    "video": "https://www.youtube.com/embed/dgXcqKGFltw?list=PLL3D9fP4iNuqRDNw5-3uoIvvAdzBk6cOF",
+    "image": "./src/images/Headers/d8te.jpg",
+    "prevShow": {
+      "key": "FLASHBACK",
+      "name": "Flashback"
+    },
+    "nextShow": {
+      "key": "FORTUNE",
+      "name": "Fortune"
+    }
+  },
+  "FLASHBACK": {
+    "name": "Flashback",
+    "year": 2013,
+    "video": "https://www.youtube.com/embed/9lgL-ZaJnCY?list=PLL3D9fP4iNupCBP54z28YAbun0IT7aax6",
+    "prevShow": {
+      "key": "HOLIC",
+      "name": "-Holic"
+    },
+    "nextShow": {
+      "key": "D8TE_NIGHT",
+      "name": "D8te Night"
+    }
+  },
+  "HOLIC": {
+    "name": "-Holic",
+    "year": 2012,
+    "video": "https://www.youtube.com/embed/Q7mewPYYDJ0?list=PL449B8F743B778A47",
+    "prevShow": {
+      "key": "AWAKENING",
+      "name": "Awakening"
+    },
+    "nextShow": {
+      "key": "FLASHBACK",
+      "name": "Flashback"
+    }
+  },
+  "AWAKENING": {
+    "name": "Awakening",
+    "year": 2011,
+    "video": "https://www.youtube.com/embed/FZXg3VXU8PM?list=PL69165D23E5E67855",
+    "prevShow": {
+      "key": "PHASES",
+      "name": "Phases"
+    },
+    "nextShow": {
+      "key": "HOLIC",
+      "name": "-Holic"
+    }
+  },
+  "PHASES": {
+    "name": "Phases",
+    "year": 2010,
+    "video": "https://www.youtube.com/embed/riDcPmxIX84?list=PLF3F7906D4B5B6126",
+    "prevShow": {
+      "key": "UNCONDITIONAL",
+      "name": "Unconditional"
+    },
+    "nextShow": {
+      "key": "AWAKENING",
+      "name": "Awakening"
+    }
+  },
+  "UNCONDITIONAL": {
+    "name": "Unconditional",
+    "year": 2009,
+    "video": "https://www.youtube.com/embed/tSZED5wR7RI?list=PLA9F9B73DE017EF37",
+    "prevShow": {
+      "key": "HIDDEN_KISSES",
+      "name": "Hidden Kisses"
+    },
+    "nextShow": {
+      "key": "PHASES",
+      "name": "Phases"
+    }
+  },
+  "HIDDEN_KISSES": {
+    "name": "Hidden Kisses",
+    "year": 2008,
+    "video": "https://www.youtube.com/embed/mCLwy3wqOAU?list=PLBC41601B7186C5B8",
+    "prevShow": {
+      "key": "SILK_N_SPICE",
+      "name": "Silk 'n Spice"
+    },
+    "nextShow": {
+      "key": "UNCONDITIONAL",
+      "name": "Unconditional"
+    }
+  },
+  "SILK_N_SPICE": {
+    "name": "Silk 'n Spice",
+    "year": 2007,
+    "video": "https://www.youtube.com/embed/PxU3O10rzRk?list=PLB9F686BFEB21B282",
+    "nextShow": {
+      "key": "HIDDEN_KISSES",
+      "name": "Hidden Kisses"
+    }
+  }
+}

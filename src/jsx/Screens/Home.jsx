@@ -18,9 +18,9 @@ const Home = React.createClass ({
                 <div>
                     <Carousel interval={3000} pauseOnHover={false}>
                         {
-                            carousel.map(function(obj) {
+                            carousel.map(function(obj, index) {
                                 return (
-                                    <Carousel.Item>
+                                    <Carousel.Item key={index}>
                                         <img src={obj.img}/>
                                         <Carousel.Caption className="Carousel-Caption">
                                             <h1>{obj.caption}</h1>
