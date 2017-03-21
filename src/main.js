@@ -23,9 +23,18 @@ import UNCONDITIONAL from './jsx/Screens/Shows/2009 Unconditional.jsx';
 import HIDDEN_KISSES from './jsx/Screens/Shows/2008 Hidden Kisses.jsx';
 import SILK_N_SPICE from './jsx/Screens/Shows/2007 Silk n Spice.jsx';
 
-// ReactDOM.render(
-//     <App/>,
-//     document.getElementById('app'));
+var shows = [
+    (<Route path={SCREEN.SHOW.INK} component={INK}/>),
+    (<Route path={SCREEN.SHOW.FORTUNE} component={FORTUNE}/>),
+    (<Route path={SCREEN.SHOW.D8TE_NIGHT} component={D8TE_NIGHT}/>),
+    (<Route path={SCREEN.SHOW.FLASHBACK} component={FLASHBACK}/>),
+    (<Route path={SCREEN.SHOW.HOLIC} component={HOLIC}/>),
+    (<Route path={SCREEN.SHOW.AWAKENING} component={AWAKENING}/>),
+    (<Route path={SCREEN.SHOW.PHASES} component={PHASES}/>),
+    (<Route path={SCREEN.SHOW.UNCONDITIONAL} component={UNCONDITIONAL}/>),
+    (<Route path={SCREEN.SHOW.HIDDEN_KISSES} component={HIDDEN_KISSES}/>),
+    (<Route path={SCREEN.SHOW.SILK_N_SPICE} component={SILK_N_SPICE}/>)
+];
 
 ReactDOM.render(
     <Router history={hashHistory}>
@@ -37,16 +46,7 @@ ReactDOM.render(
             <Route path={SCREEN.FAQ} component={FAQ}/>
             <Route path={SCREEN.CONTACT} component={Contact}/>
             <Route path={SCREEN.GALLERY} component={Gallery}/>
-            <Route path={SCREEN.SHOW.INK} component={INK}/>
-            <Route path={SCREEN.SHOW.FORTUNE} component={FORTUNE}/>
-            <Route path={SCREEN.SHOW.D8TE_NIGHT} component={D8TE_NIGHT}/>
-            <Route path={SCREEN.SHOW.FLASHBACK} component={FLASHBACK}/>
-            <Route path={SCREEN.SHOW.HOLIC} component={HOLIC}/>
-            <Route path={SCREEN.SHOW.AWAKENING} component={AWAKENING}/>
-            <Route path={SCREEN.SHOW.PHASES} component={PHASES}/>
-            <Route path={SCREEN.SHOW.UNCONDITIONAL} component={UNCONDITIONAL}/>
-            <Route path={SCREEN.SHOW.HIDDEN_KISSES} component={HIDDEN_KISSES}/>
-            <Route path={SCREEN.SHOW.SILK_N_SPICE} component={SILK_N_SPICE}/>
+            {shows}
         </Route>
     </Router>,
 document.getElementById('app'));
