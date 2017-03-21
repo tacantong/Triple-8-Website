@@ -10,7 +10,7 @@ var fb = (
 var youtube = (
     <a href="http://www.youtube.com/triple8dancecompany" target="_blank">Youtube</a>
 );
-var image = ABOUT_DATA.img;
+var imageURL = ABOUT_DATA.img;
 var caption = ABOUT_DATA.caption;
 var title = ABOUT_DATA.title;
 var blurb = (<span>{ABOUT_DATA.blurb} Check us out on {fb} and on {youtube}.</span>);
@@ -69,7 +69,7 @@ const About = React.createClass ({
 
         return (
             <div>
-                <Header img={image} label={caption}/>
+                <Header img={imageURL} label={caption}/>
                 <div className="container">
                     <div className="row">
                         <div className="col-xs-12 About-Title">
