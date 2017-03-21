@@ -1,4 +1,13 @@
 {
+  "WARRIOR": {
+    "name": "Warrior",
+    "year": 2017,
+    "video": "https://www.youtube.com/embed/2XC9VGRKtcU?list=PLL3D9fP4iNuqbIklahuT01xtPzY1U8Fxn",
+    "prevShow": {
+      "key": "INK",
+      "name": "INK"
+    }
+  },
   "INK": {
     "name": "INK",
     "year": 2016,
@@ -7,6 +16,10 @@
     "prevShow": {
       "key": "FORTUNE",
       "name": "Fortune"
+    },
+    "nextShow": {
+      "key": "WARRIOR",
+      "name": "Warrior"
     }
   },
   "FORTUNE": {

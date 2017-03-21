@@ -4,6 +4,9 @@ import {Link} from 'react-router';
 import {LinkContainer} from 'react-router-bootstrap';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 
+const SHOW_DATA = require('../ajax/shows.json');
+var showKeys = Object.keys(SHOW_DATA);
+
 const NavBar = React.createClass({
 
     getInitialState() {
@@ -38,7 +41,7 @@ const NavBar = React.createClass({
 
     _renderMenuItem(label, eventKey, screen) {
         return (
-            <LinkContainer to={screen} onClick={this._hideNav}>
+            <LinkContainer to={screen} onClick={this._hideNav} key={eventKey}>
                 <MenuItem eventKey={eventKey}>
                     {label}
                 </MenuItem>
@@ -76,16 +79,10 @@ const NavBar = React.createClass({
                     </NavDropdown>
                     {this._renderItem('Company', 2, SCREEN.COMPANY)}
                     <NavDropdown eventKey={3} title='Shows' id="basic-nav-dropdown">
-                        {this._renderMenuItem("2016 INK", 3.1, SCREEN.SHOW.INK)}
-                        {this._renderMenuItem("2015 Fortune", 3.2, SCREEN.SHOW.FORTUNE)}
-                        {this._renderMenuItem("2014 D8te Night", 3.3, SCREEN.SHOW.D8TE_NIGHT)}
-                        {this._renderMenuItem("2013 Flashback", 3.4, SCREEN.SHOW.FLASHBACK)}
-                        {this._renderMenuItem("2012 -Holic", 3.5, SCREEN.SHOW.HOLIC)}
-                        {this._renderMenuItem("2011 Awakening", 3.6, SCREEN.SHOW.AWAKENING)}
-                        {this._renderMenuItem("2010 Phases", 3.7, SCREEN.SHOW.PHASES)}
-                        {this._renderMenuItem("2009 Unconditional", 3.8, SCREEN.SHOW.UNCONDITIONAL)}
-                        {this._renderMenuItem("2008 Hidden Kisses", 3.9, SCREEN.SHOW.HIDDEN_KISSES)}
-                        {this._renderMenuItem("2007 Silk n' Spice", 3.10, SCREEN.SHOW.SILK_N_SPICE)}
+                        {showKeys.map(function(show, i) {
+                            var obj = SHOW_DATA[show]
+                            return this._renderMenuItem(obj.year + " " + obj.name, 3.0 + (i/10), show);
+                        }.bind(this))}
                     </NavDropdown>
                     {this._renderItem('Gallery', 4, SCREEN.GALLERY)}
                     {this._renderItem('FAQ', 5, SCREEN.FAQ)}

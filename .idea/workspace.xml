@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3489eb6-9770-4c9d-9fa6-a03080b83fcc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ajax/shows.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsx/Screens/Board.jsx" afterPath="$PROJECT_DIR$/src/jsx/Screens/Board.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsx/Screens/Gallery.jsx" afterPath="$PROJECT_DIR$/src/jsx/Screens/Gallery.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsx/Screens/Home.jsx" afterPath="$PROJECT_DIR$/src/jsx/Screens/Home.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsx/Screens/Shows.jsx" afterPath="$PROJECT_DIR$/src/jsx/Screens/Shows.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ajax/shows.json" afterPath="$PROJECT_DIR$/src/ajax/shows.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsx/NavBar.jsx" afterPath="$PROJECT_DIR$/src/jsx/NavBar.jsx" />
     </list>
     <list id="98f72c2d-bc98-4fbf-891f-96e8567b4ef2" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
@@ -33,21 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main.js">
+      <file leaf-file-name="NavBar.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jsx/NavBar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="264">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shows.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shows.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ajax/shows.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="825">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="n#!!block;n#UNCONDITIONAL#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#HIDDEN_KISSES#0;n#!!top" expanded="false" />
@@ -56,14 +54,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shows.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jsx/Screens/Shows.jsx">
+      <file leaf-file-name="About.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jsx/Screens/About.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/jsx/Screens/About.jsx" />
         <option value="$PROJECT_DIR$/src/jsx/Screens/Contact.jsx" />
         <option value="$PROJECT_DIR$/src/ajax/contact.json" />
-        <option value="$PROJECT_DIR$/src/jsx/NavBar.jsx" />
         <option value="$PROJECT_DIR$/src/ajax/gallery.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/jsx/Screens/Home.jsx" />
@@ -138,8 +133,9 @@
         <option value="$PROJECT_DIR$/src/jsx/Screens/Board.jsx" />
         <option value="$PROJECT_DIR$/src/jsx/Screens/Shows/2016 INK.jsx" />
         <option value="$PROJECT_DIR$/src/jsx/Screens/Shows.jsx" />
-        <option value="$PROJECT_DIR$/src/ajax/shows.json" />
         <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/jsx/NavBar.jsx" />
+        <option value="$PROJECT_DIR$/src/ajax/shows.json" />
       </list>
     </option>
   </component>
@@ -205,104 +201,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Screens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Screens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triple-8-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -803,7 +701,7 @@
       <workItem from="1473013114570" duration="552000" />
       <workItem from="1483040529103" duration="5593000" />
       <workItem from="1490120833332" duration="5544000" />
-      <workItem from="1490127127879" duration="6455000" />
+      <workItem from="1490127127879" duration="7127000" />
     </task>
     <task id="LOCAL-00001" summary="pulled hard-coded data out of home page into home.json file">
       <created>1490123140356</created>
@@ -847,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490128045912</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pulled out hard-coded design of the show videos now all show data is pulled from the shows.json and inserted as props into a component">
+      <created>1490133655032</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490133655032</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177941000" />
+    <option name="totallyTimeSpent" value="178613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="3214" height="1754" extended-state="0" />
@@ -902,7 +807,8 @@
     <MESSAGE value="pulled hard-coded data out of faq page into faq.json file" />
     <MESSAGE value="pulled hard-coded data out of contact page into contact.json file" />
     <MESSAGE value="pulled hard-coded data out of gallery page into gallery.json file" />
-    <option name="LAST_COMMIT_MESSAGE" value="pulled hard-coded data out of gallery page into gallery.json file" />
+    <MESSAGE value="pulled out hard-coded design of the show videos now all show data is pulled from the shows.json and inserted as props into a component" />
+    <option name="LAST_COMMIT_MESSAGE" value="pulled out hard-coded design of the show videos now all show data is pulled from the shows.json and inserted as props into a component" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -1206,16 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jsx/NavBar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="85" column="100" selection-start-line="85" selection-start-column="100" selection-end-line="85" selection-end-column="100" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -1266,14 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jsx/Screens/About.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jsx/Screens/Board.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -1316,6 +1204,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/jsx/Screens/Shows/2014 D8te Night.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="103" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/jsx/Screens/Shows.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -1326,30 +1230,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jsx/Screens/Shows/2014 D8te Night.jsx">
+    <entry file="file://$PROJECT_DIR$/src/jsx/Screens/About.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="103" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="103" />
+        <state relative-caret-position="66">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jsx/NavBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ajax/shows.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="825">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="n#!!block;n#UNCONDITIONAL#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#HIDDEN_KISSES#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
