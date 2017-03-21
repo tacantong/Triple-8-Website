@@ -3,7 +3,7 @@ import Gallery from 'react-photo-gallery';
 import {Nav, NavItem} from 'react-bootstrap';
 import SHOWS from '../../js/Show.js';
 
-const GALLERY_DATA = require('json!../../ajax/gallery.json');
+const GALLERY_DATA = require('../../ajax/gallery.json');
 
 const ImageGallery = React.createClass ({
     getInitialState() {

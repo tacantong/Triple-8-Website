@@ -2,7 +2,7 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import Header from '../Header.jsx';
 
-const DANCER_DATA = require('json!../../ajax/dancers.json');
+const DANCER_DATA = require('../../ajax/dancers');
 
 const CLASS_YEAR = {
     FRESHMAN: 'FRESHMAN',
