@@ -1,6 +1,7 @@
 {
   "INK": {
     "title": "INK",
+    "year": 2016,
     "photographer": "Vincent Po",
     "link": "http://vincentpo.com/",
     "photos": [
@@ -538,6 +539,7 @@
   },
   "FORTUNE": {
     "title": "Fortune",
+    "year": 2015,
     "photographer": "Noel Valero",
     "link": "http://noelvalero.zenfolio.com/",
     "photos": [
@@ -986,6 +988,7 @@
   },
   "D8TE_NIGHT": {
     "title": "D8te Night",
+    "year": 2014,
     "photographer": "Noel Valero",
     "link": "http://noelvalero.zenfolio.com/",
     "photos": [
@@ -1413,6 +1416,7 @@
   },
   "FLASHBACK": {
     "title": "Flashback",
+    "year": 2013,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2013 Flashback/1.jpg",
@@ -1787,6 +1791,7 @@
   },
   "HOLIC": {
     "title": "-Holic",
+    "year": 2012,
     "photographer": "Rose Nguyen",
     "link": "#",
     "photos": [
@@ -2164,6 +2169,7 @@
   },
   "AWAKENING": {
     "title": "Awakening",
+    "year": 2011,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2011 Awakening/1.jpg",
@@ -2601,6 +2607,7 @@
   },
   "PHASES": {
     "title": "Phases",
+    "year": 2010,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2010 Phases/1.jpg",
@@ -2903,6 +2910,7 @@
   },
   "UNCONDITIONAL": {
     "title": "Unconditional",
+    "year": 2009,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2009 Unconditional/1.jpg",
@@ -3043,6 +3051,7 @@
   },
   "HIDDEN_KISSES": {
     "title": "Hidden Kisses",
+    "year": 2008,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2008 Hidden Kisses/1.jpg",

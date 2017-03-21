@@ -5,9 +5,6 @@ import {LinkContainer} from 'react-router-bootstrap';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 
 const NavBar = React.createClass({
-    // propTypes: {
-    //     onScreenChange: React.PropTypes.func
-    // },
 
     getInitialState() {
         return ({

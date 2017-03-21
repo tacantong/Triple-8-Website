@@ -1,14 +1,15 @@
 import React from 'react';
 import Gallery from 'react-photo-gallery';
 import {Nav, NavItem} from 'react-bootstrap';
-import SHOWS from '../../js/Show.js';
 
 const GALLERY_DATA = require('../../ajax/gallery.json');
+
+var shows = Object.keys(GALLERY_DATA);
 
 const ImageGallery = React.createClass ({
     getInitialState() {
       return({
-          show: SHOWS.INK,
+          show: shows[0],
           photos: GALLERY_DATA
       });
     },
@@ -40,15 +41,14 @@ const ImageGallery = React.createClass ({
                     onSelect={this._changeShows}
                     className="Gallery-Tab"
                 >
-                    <NavItem eventKey={SHOWS.INK}>2016 INK</NavItem>
-                    <NavItem eventKey={SHOWS.FORTUNE}>2015 Fortune</NavItem>
-                    <NavItem eventKey={SHOWS.D8TE_NIGHT}>2014 D8te Night</NavItem>
-                    <NavItem eventKey={SHOWS.FLASHBACK}>2013 Flashback</NavItem>
-                    <NavItem eventKey={SHOWS.HOLIC}>2012 -Holic</NavItem>
-                    <NavItem eventKey={SHOWS.AWAKENING}>2011 Awakening</NavItem>
-                    <NavItem eventKey={SHOWS.PHASES}>2010 Phases</NavItem>
-                    <NavItem eventKey={SHOWS.UNCONDITIONAL}>2009 Unconditional</NavItem>
-                    <NavItem eventKey={SHOWS.HIDDEN_KISSES}>2008 Hidden Kisses</NavItem>
+                    {
+                        shows.map(function(show) {
+                            var obj = GALLERY_DATA[show];
+                            return (
+                                <NavItem eventKey={show}>{obj.year + " " + obj.title}</NavItem>
+                            );
+                        })
+                    }
                 </Nav>
                 <div className="Gallery-Header col-xs-12">
                     <div className="Gallery-Title">
