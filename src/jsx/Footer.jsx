@@ -22,7 +22,7 @@ const Footer = React.createClass({
                         COPYRIGHT &copy; TRIPLE 8 DANCE COMPANY 2016
                     </div>
                     <div className="footer-message footer-section">
-                        Design by BrandonZ
+                        TRIPLE WHAAAT?!
                     </div>
                 </div>
             </footer>

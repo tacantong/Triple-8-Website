@@ -27,7 +27,9 @@ const Company = React.createClass ({
         return {
             activeDancer: {},
             showModal: false,
-            dancers: DANCER_DATA
+            dancers: DANCER_DATA.dancers,
+            img: DANCER_DATA.img,
+            caption: DANCER_DATA.caption
         };
     },
 
@@ -120,7 +122,7 @@ const Company = React.createClass ({
 
         return (
             <div>
-                <Header img="./src/images/Headers/t8party.gif" label="Meet The Company"/>
+                <Header img={this.state.img} label={this.state.caption}/>
                 <div className="container">
                     {this._renderModal()}
                 {seniors.length > 0 ?
