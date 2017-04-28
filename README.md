@@ -7,18 +7,18 @@
 `git clone https://github.com/triple8dance/Triple-8-Website.git`  
 `cd Triple-8-Website`
 
-###Install Packages
+### Install Packages
 `npm install`
 
-###Start Server
+### Start Server
 `npm start`  
 Go to [localhost:8080](http://localhost:8080/)  
 The T8 website should be there.
 
-###Compile
+### Compile
 `npm run compile`  
-This compiles all the files in the _./src_ folder into _./index.html_ and _./index.js_  
-Open _./index.html_ and the website should open in your browser.
+This compiles all the files in the `./src` folder into `./index.html` and `./index.js`  
+Open `./index.html` and the website should open in your browser.
 
 ## General explanation
 
@@ -26,31 +26,32 @@ Open _./index.html_ and the website should open in your browser.
 The website is made using React so in order to get it to readable JavaScript that a browser 
 can open up you need to "compile" it. Running the local server is just so you can see 
 changes happening live at [localhost:8080](http://localhost:8080/). Compiling the website 
-using `npm run compile` packages all the JavaScript code into _./index.js. Basically 
+using `npm run compile` packages all the JavaScript code into `./index.js`. Basically 
 in order to put up the website you just need compile the website and copy everything but 
-_./node_modules_ to wherever is hosting the website.
+`./node_modules/` to wherever is hosting the website.
 
 ### Hosting the Website
 Ideally the website should be hosted anywhere that accept static websites (ie open the index.html) 
 file. Two services that do this are [GitHub](https://pages.github.com/) and Princeton. Like I mentioned above just 
-copy everything but the _./node_modules_ folder into where you need to place it.
+copy everything but the `./node_modules/` folder into where you need to place it.
 
 PUBLIC_HTML Folder
+
 /n/homeserver2/user2a/PUBLIC_HTML/triple8
 
 
 ### Editing the Website
-To edit the website go to _./src/ajax/_ what you'll find are files that contain the data 
+To edit the website go to `./src/ajax/` what you'll find are files that contain the data 
 for all the website's pages. To edit the website you just need to edit these files (no coding involved)! 
 They are written in JSON which you can find a quick tutorial [here](https://www.w3schools.com/js/js_json_intro.asp). 
 It's not necessary to read the tutorial just follow the examples in the files. For images copy 
-the images into the _./images_ folder and make sure your paths are correct. And that basically 
+the images into the `./images/` folder and make sure your paths are correct. And that basically 
 all you need to know!
 
 ## Details On How to Edit
  
 ### Home Page
-The data for the home page is in _./src/ajax/home.json_. The _carousel_ holds data for the 
+The data for the home page is in `./src/ajax/home.json`. The _carousel_ holds data for the 
 images the spin through on the home page. Each item needs an _img_; a caption is optional. 
 If it is included the text will appear on the image. The _blurb_ is the paragraph that 
 appears on the home page. The _announcement_ is the text that appears above the blurb. It 
@@ -60,7 +61,7 @@ bottom of the home page. You can change the image, the bolded text, and the shor
 But you cannot change where the page links to (without altering the actual code).
 
 ### About Page
-The data for the about page is in _./src/ajax/about.json_. The _img_, _caption_, _title_, and _blurb_ are pretty self-explanatory if you look at the 
+The data for the about page is in `./src/ajax/about.json`. The _img_, _caption_, _title_, and _blurb_ are pretty self-explanatory if you look at the 
 website. On the bottom of the about page three YouTube videos load; the website takes 
 three random YouTube videos from a list and loads them. The _tooltip_ is the text that 
 appears when you hover over the refresh symbol. The _videoTitle_ is the text that 
@@ -69,11 +70,11 @@ from. Make note that they are embedded links (which you  can get by right clicki
 on a video and copying the embedded link).
 
 ### Board
-The data for the board page is in _./src/ajax/board.json_. This should be pretty self-explanatory, look at the website. The _title_ is optional 
+The data for the board page is in `./src/ajax/board.json`. This should be pretty self-explanatory, look at the website. The _title_ is optional 
 text that appears above the list of all the board members.
 
 ### Company
-The data for the company page is in _./src/ajax/dancers.json_ (sorry for the naming 
+The data for the company page is in `./src/ajax/dancers.json` (sorry for the naming 
 inconsistency!). Basically every dancer is in a list in _dancers_. The important thing 
 to know is that the _year_ of each dancer needs to be either *SENIOR*, *JUNIOR*, 
 *SOPHOMORE*, *FRESHMAN*, or *POST_GRAD*. These must be spelled exactly. This is so 
@@ -85,7 +86,7 @@ thumbnail MUST be exactly square (NxN pixels) otherwise the grid will appear wei
 Everything else is self-explanatory.
 
 ### Shows
-The data for the show pages is in _./src/ajax/shows.json_. These are all the pages under 
+The data for the show pages is in `./src/ajax/shows.json`. These are all the pages under 
 the show tab on the website and displays the YouTube playlist for a show. When you want 
 add the next show follow the example on the JSON. The key for each show is an 
 identifier to that show, you are free to name it anything you'd like, but it's best 
@@ -99,7 +100,7 @@ show. The _name_ is what it appears as on the website. This applies to _nextShow
 If a show doesn't have a previous or next show then you can just leave it blank.
 
 ### Gallery
-The data for the gallery page is in _./src/ajax/gallery.json_. This one is a bit of a 
+The data for the gallery page is in `./src/ajax/gallery.json`. This one is a bit of a 
 pain to edit. Most of it should be self-explanatory, except the photos themselves. I 
 used an outside package to get the photogrid working. Basically the _width_ and _height_ 
 don't actually matter so I just leave it at 100. The _aspectRatio_ is the ratio of the 
@@ -111,11 +112,11 @@ same anyways. Photos appear in the gallery in the order you put them in. For eve
 photo you put in you need to get its aspect ratio.
 
 ### FAQ
-The data for the faq page is in _./src/ajax/faq.json_. This is easy to edit (yay!), 
+The data for the faq page is in `./src/ajax/faq.json`. This is easy to edit (yay!), 
 just follow the example.
 
 ### Contact
-The data for the contact page is in _./src/ajax/contact.json_. The important thing 
+The data for the contact page is in `./src/ajax/contact.json`. The important thing 
 to note is the _formspree_ field. Since the website is a static page, form requests 
 are handled by [Formspree](https://formspree.io/). You'll notice that it has a URL 
 with an email at the end, change that email to whoever you want to receive the email 
@@ -125,7 +126,7 @@ sure to test it out so that you get emails.
 
 ## React Details of the Website
 
-##Owned Domains
+## Owned Domains
 * triple8dance.com
 * triple8.dance
 * princetondancecompany.com
