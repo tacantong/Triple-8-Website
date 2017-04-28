@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3489eb6-9770-4c9d-9fa6-a03080b83fcc" name="Default" comment="added a lot of info to the readme and made some changes to the dancers.json so that the header image and caption data are in that file">
+    <list default="true" id="e3489eb6-9770-4c9d-9fa6-a03080b83fcc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="933">
-                <caret line="119" column="51" lean-forward="false" selection-start-line="119" selection-start-column="51" selection-end-line="119" selection-end-column="51" />
+              <first_editor relative-caret-position="306">
+                <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -647,7 +647,7 @@
       <workItem from="1490120833332" duration="5544000" />
       <workItem from="1490127127879" duration="7366000" />
       <workItem from="1493341926690" duration="1629000" />
-      <workItem from="1493405239672" duration="6614000" />
+      <workItem from="1493405239672" duration="6708000" />
     </task>
     <task id="LOCAL-00001" summary="pulled hard-coded data out of home page into home.json file">
       <created>1490123140356</created>
@@ -719,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493411696565</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="minor visual changes to the readme">
+      <created>1493411902054</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1493411902054</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187095000" />
+    <option name="totallyTimeSpent" value="187189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="3198" height="1726" extended-state="0" />
@@ -781,7 +788,8 @@
     <MESSAGE value="navbar show items are pulled from shows.json (no longer hard-coded in)" />
     <MESSAGE value="deleted the output path in the webpack config. updated some website info." />
     <MESSAGE value="added a lot of info to the readme and made some changes to the dancers.json so that the header image and caption data are in that file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a lot of info to the readme and made some changes to the dancers.json so that the header image and caption data are in that file" />
+    <MESSAGE value="minor visual changes to the readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor visual changes to the readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,8 +1152,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="933">
-            <caret line="119" column="51" lean-forward="false" selection-start-line="119" selection-start-column="51" selection-end-line="119" selection-end-column="51" />
+          <first_editor relative-caret-position="306">
+            <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />

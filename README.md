@@ -69,11 +69,11 @@ appears above the videos. The _videos_ is the list of YouTube links which is pul
 from. Make note that they are embedded links (which you  can get by right clicking 
 on a video and copying the embedded link).
 
-### Board
+### Board Page
 The data for the board page is in `./src/ajax/board.json`. This should be pretty self-explanatory, look at the website. The _title_ is optional 
 text that appears above the list of all the board members.
 
-### Company
+### Company Page
 The data for the company page is in `./src/ajax/dancers.json` (sorry for the naming 
 inconsistency!). Basically every dancer is in a list in _dancers_. The important thing 
 to know is that the _year_ of each dancer needs to be either *SENIOR*, *JUNIOR*, 
@@ -85,7 +85,7 @@ face board and _img_ is the image that appears when you click on the dancer. The
 thumbnail MUST be exactly square (NxN pixels) otherwise the grid will appear weird. 
 Everything else is self-explanatory.
 
-### Shows
+### Show Pages
 The data for the show pages is in `./src/ajax/shows.json`. These are all the pages under 
 the show tab on the website and displays the YouTube playlist for a show. When you want 
 add the next show follow the example on the JSON. The key for each show is an 
@@ -99,7 +99,7 @@ has a _key_ and a _name_. The _key_ must be exactly the same as the key to the F
 show. The _name_ is what it appears as on the website. This applies to _nextShow_ as well. 
 If a show doesn't have a previous or next show then you can just leave it blank.
 
-### Gallery
+### Gallery Page
 The data for the gallery page is in `./src/ajax/gallery.json`. This one is a bit of a 
 pain to edit. Most of it should be self-explanatory, except the photos themselves. I 
 used an outside package to get the photogrid working. Basically the _width_ and _height_ 
@@ -111,11 +111,11 @@ for the actual image when you click on it, but generally we want those to be the
 same anyways. Photos appear in the gallery in the order you put them in. For every 
 photo you put in you need to get its aspect ratio.
 
-### FAQ
+### FAQ Page
 The data for the faq page is in `./src/ajax/faq.json`. This is easy to edit (yay!), 
 just follow the example.
 
-### Contact
+### Contact Page
 The data for the contact page is in `./src/ajax/contact.json`. The important thing 
 to note is the _formspree_ field. Since the website is a static page, form requests 
 are handled by [Formspree](https://formspree.io/). You'll notice that it has a URL 
