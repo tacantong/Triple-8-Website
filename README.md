@@ -1,15 +1,8 @@
 # Triple-8-Website
 Triple 8 Website
 
-Install Global Packages
-npm install -g babel
-npm install -g babel-cli
-
-Add Plugins
-npm install babel-core
-npm install babel-loader
-npm install babel-preset-react
-npm install babel-preset-es2015
+Install Packages
+npm install
 
 Start Server
 npm start

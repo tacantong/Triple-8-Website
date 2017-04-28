@@ -699,6 +699,18 @@
     "classYear": 2020
   },
   {
+    "fname": "Nitish",
+    "lname": "Jindal",
+    "thumbnail": "./src/images/dancers/thumbnails/nitish_jindal.jpg",
+    "img": "./src/images/dancers/photos/nitish_jindal.jpg",
+    "major": "Operations Research & Financial Engineering",
+    "hometown": "Dallas, TX",
+    "bio": "Before Triple 8, dancing had been an art that I would've never imagined myself to pursue. In fact, at Tiger Night, when all the performing arts groups at Princeton were showcased, I told myself, \"No way! Wow, I could never touch my toes.\" However, despite my non-exposure to dance, Triple 8 has been a great community that has welcomed me into a dance company with styles ranging from hip-hop to fusion-contemporary. I'm excited to join a new family on campus, and am looking forward to a great year!",
+    "fact": "I've traveled to 8 different European countries this past summer, 3 of which I performed in concert halls with the National Youth Orchestra.",
+    "year": "FRESHMAN",
+    "classYear": 2020
+  },
+  {
     "fname": "Elaine",
     "lname": "Zhang",
     "thumbnail": "./src/images/dancers/thumbnails/elaine_zhang.jpg",
@@ -709,17 +721,6 @@
     "fact": "",
     "year": "POST_GRAD",
     "classYear": ""
-  },
-  {
-    "fname": "Esco",
-    "lname": "He",
-    "thumbnail": "./src/images/dancers/thumbnails/esco_he.jpg",
-    "img": "./src/images/dancers/photos/esco_he.jpg",
-    "major": "Mathematics",
-    "hometown": "Edison, NJ",
-    "bio": "Sometimes, I sit in the back of the dance studio, exhausted, and I just stare up into the lights and the mirrors, and I think, “...goddamn... I’m a dancer now...”Thank you Triple 8, for helping me live out one of my dreams.",
-    "year": "POST_GRAD",
-    "classYear": 2015
   },
   {
     "fname": "Esco",
