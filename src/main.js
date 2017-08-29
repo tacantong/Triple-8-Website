@@ -12,41 +12,27 @@ import FAQ from './jsx/Screens/Faq.jsx';
 import Contact from './jsx/Screens/Contact.jsx';
 import Gallery from './jsx/Screens/Gallery.jsx';
 
-import INK from './jsx/Screens/Shows/2016 INK.jsx';
-import FORTUNE from './jsx/Screens/Shows/2015 Fortune.jsx';
-import D8TE_NIGHT from './jsx/Screens/Shows/2014 D8te Night.jsx';
-import FLASHBACK from './jsx/Screens/Shows/2013 Flashback.jsx';
-import HOLIC from './jsx/Screens/Shows/2012 Holic.jsx';
-import AWAKENING from './jsx/Screens/Shows/2011 Awakening.jsx';
-import PHASES from './jsx/Screens/Shows/2010 Phases.jsx';
-import UNCONDITIONAL from './jsx/Screens/Shows/2009 Unconditional.jsx';
-import HIDDEN_KISSES from './jsx/Screens/Shows/2008 Hidden Kisses.jsx';
-import SILK_N_SPICE from './jsx/Screens/Shows/2007 Silk n Spice.jsx';
+import Shows from './jsx/Screens/Shows.jsx';
+const SHOW_DATA = require('./ajax/shows.json');
 
-// ReactDOM.render(
-//     <App/>,
-//     document.getElementById('app'));
+var showRoutes = Object.keys(SHOW_DATA).map(function(key) {
+    var obj = SHOW_DATA[key];
+    return  (
+        <Route path={key} key={key} video={obj.video} image={obj.image} prevShow={obj.prevShow} nextShow={obj.nextShow} component={Shows}/>
+    );
+});
 
 ReactDOM.render(
     <Router history={hashHistory}>
         <Route path={SCREEN.HOME} component={App}>
-            <IndexRoute component={Home}/>
-            <Route path={SCREEN.ABOUT} component={About}/>
-            <Route path={SCREEN.COMPANY} component={Company}/>
-            <Route path={SCREEN.BOARD} component={Board}/>
-            <Route path={SCREEN.FAQ} component={FAQ}/>
-            <Route path={SCREEN.CONTACT} component={Contact}/>
-            <Route path={SCREEN.GALLERY} component={Gallery}/>
-            <Route path={SCREEN.SHOW.INK} component={INK}/>
-            <Route path={SCREEN.SHOW.FORTUNE} component={FORTUNE}/>
-            <Route path={SCREEN.SHOW.D8TE_NIGHT} component={D8TE_NIGHT}/>
-            <Route path={SCREEN.SHOW.FLASHBACK} component={FLASHBACK}/>
-            <Route path={SCREEN.SHOW.HOLIC} component={HOLIC}/>
-            <Route path={SCREEN.SHOW.AWAKENING} component={AWAKENING}/>
-            <Route path={SCREEN.SHOW.PHASES} component={PHASES}/>
-            <Route path={SCREEN.SHOW.UNCONDITIONAL} component={UNCONDITIONAL}/>
-            <Route path={SCREEN.SHOW.HIDDEN_KISSES} component={HIDDEN_KISSES}/>
-            <Route path={SCREEN.SHOW.SILK_N_SPICE} component={SILK_N_SPICE}/>
+            <IndexRoute component={Home} key={SCREEN.HOME}/>
+            <Route path={SCREEN.ABOUT} key={SCREEN.ABOUT} component={About}/>
+            <Route path={SCREEN.COMPANY} key={SCREEN.COMPANY} component={Company}/>
+            <Route path={SCREEN.BOARD} key={SCREEN.BOARD} component={Board}/>
+            <Route path={SCREEN.FAQ} key={SCREEN.FAQ} component={FAQ}/>
+            <Route path={SCREEN.CONTACT} key={SCREEN.CONTACT} component={Contact}/>
+            <Route path={SCREEN.GALLERY} key={SCREEN.GALLERY} component={Gallery}/>
+            {showRoutes}
         </Route>
     </Router>,
 document.getElementById('app'));

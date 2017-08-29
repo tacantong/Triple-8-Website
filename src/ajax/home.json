@@ -1,0 +1,45 @@
+{
+  "carousel": [
+    {
+      "img": "./src/images/Headers/Carousel/1.png",
+      "caption": "Triple 8 Dance Company"
+    },
+    {
+      "img": "./src/images/Headers/Carousel/2.png"
+    },
+    {
+      "img": "./src/images/Headers/Carousel/3.png"
+    },
+    {
+      "img": "./src/images/Headers/Carousel/4.png"
+    },
+    {
+      "img": "./src/images/Headers/Carousel/5.png"
+    },
+    {
+      "img": "./src/images/Headers/Carousel/6.png"
+    }
+  ],
+  "blurb": "Welcome to Triple 8 Dance Company's website! We are Princeton University's premier East Asian dance company. Known for our diversity of styles, we choreograph and perform traditional Asian dance, lyrical, contemporary, hip hop, k-pop, and martial arts. We have a close-knit family of members with different backgrounds, some of whom had no previous dance experience and many of whom are members of other dance groups on and off campus.",
+  "announcement": {
+    "title": "Welcome Class of 2021!",
+    "description": "If you're looking at trying something new or want to improve your dance ability and repertoire check out Triple 8, Princeton's premier East Asian dance company!"
+  },
+  "tiles": {
+    "about": {
+      "img": "./src/images/Home/1.png",
+      "title": "About",
+      "description": "Founded in 2003, Triple 8 performs cross-cultural choreography, blending a myriad of different styles together. Click the image for more info!"
+    },
+    "company": {
+      "img": "./src/images/Home/2.png",
+      "title": "Company",
+      "description": "Our company is made up of a close-knit group of dancers both with years of dance experience and no dance experience prior to joining. Check out our talented dancers!"
+    },
+    "faq": {
+      "img": "./src/images/Home/3.png",
+      "title": "Audition",
+      "description": "We hold auditions every Fall. Take a look at our FAQ for more info on how to join the Triple 8 family!"
+    }
+  }
+}

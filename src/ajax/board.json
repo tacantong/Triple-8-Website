@@ -1,0 +1,62 @@
+{
+  "img": "./src/images/Headers/girls.png",
+  "caption": "Board Members",
+  "title": "",
+  "officers": [
+    {
+      "position": "President",
+      "name": "Susanna Yu '17",
+      "email": "scyu@princeton.edu"
+    },
+    {
+      "position": "Vice President",
+      "name": "Edward Wang '18",
+      "email": "edwardyw@princeton.edu"
+    },
+    {
+      "position": "Artistic Director",
+      "name": "Susanna Yu '17",
+      "email": "scyu@princeton.edu"
+    },
+    {
+      "position": "President",
+      "name": "Dorothy Chen '17",
+      "email": "dochen@princeton.edu"
+    },
+    {
+      "position": "Assistant Artistic Director",
+      "name": "Sally Hahn '19",
+      "email": "yhahn@princeton.edu"
+    },
+    {
+      "position": "Treasurer",
+      "name": "Marsha Zhang '17",
+      "email": "mrzhang@princeton.edu"
+    },
+    {
+      "position": "Publicity Chair",
+      "name": "Mayee Chen '19",
+      "email": "mfchen@princeton.edu"
+    },
+    {
+      "position": "Publicity Chair",
+      "name": "Siyu Wu '18",
+      "email": "siyuwu@princeton.edu"
+    },
+    {
+      "position": "Social Chair",
+      "name": "Benjamin Tso '18",
+      "email": "btso@princeton.edu"
+    },
+    {
+      "position": "Tech Chair",
+      "name": "Brandon Zhou '17",
+      "email": "brandonz@princeton.edu"
+    },
+    {
+      "position": "Costumes Chair",
+      "name": "Maddie Clayton '17",
+      "email": "mec2@princeton.edu"
+    }
+  ]
+}

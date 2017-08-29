@@ -2,31 +2,43 @@ import React from 'react';
 import {FormGroup, FormControl, ControlLabel, Button} from 'react-bootstrap';
 import Header from '../Header.jsx';
 
+const CONTACT_DATA = require('../../ajax/contact.json');
+
+var imageURL = CONTACT_DATA.img;
+var caption = CONTACT_DATA.caption;
+var title = CONTACT_DATA.title;
+var formspree = CONTACT_DATA.formspree;
+var links = (
+    <div>
+        <i className="fa fa-youtube-play"/>
+        <span>&nbsp;</span>
+        <a href="http://www.youtube.com/triple8dancecompany" target="_blank">Youtube</a><br/>
+        <i className="fa fa-facebook-square"/>
+        <span>&nbsp;</span>
+        <a href="http://www.facebook.com/Triple8DanceCompany" target="_blank">Facebook</a><br/>
+        <i className="fa fa-envelope"/>
+        <span>&nbsp;</span>
+        <a href="mailto:triple8@princeton.edu">triple8@princeton.edu</a>
+    </div>
+);
+
 const Contact = React.createClass ({
     render() {
         return (
             <div>
-                <Header img="./src/images/Headers/roses.png" label="Contact Us"/>
+                <Header img={imageURL} label={caption}/>
                 <div className="container">
                     <div className="row Contact-Media">
                         <div className="col-xs-2">&nbsp;</div>
                         <div className="col-xs-8">
-                            <b>Connect With Us At:</b><br/>
+                            <b>{title}</b><br/>
                             <hr/>
-                            <i className="fa fa-youtube-play"/>
-                            <span>&nbsp;</span>
-                            <a href="http://www.youtube.com/triple8dancecompany" target="_blank">Youtube</a><br/>
-                            <i className="fa fa-facebook-square"/>
-                            <span>&nbsp;</span>
-                            <a href="http://www.facebook.com/Triple8DanceCompany" target="_blank">Facebook</a><br/>
-                            <i className="fa fa-envelope"/>
-                            <span>&nbsp;</span>
-                            <a href="mailto:triple8@princeton.edu">triple8@princeton.edu</a>
+                            {links}
                         </div>
                         <div className="col-xs-2">&nbsp;</div>
                     </div>
                     <div>
-                        <form action="https://formspree.io/brandonz@princeton.edu"
+                        <form action={formspree}
                               method="POST">
                             <div className = "row">
                                 <div className="col-xs-2">&nbsp;</div>

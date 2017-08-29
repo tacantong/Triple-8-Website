@@ -1,6 +1,204 @@
 {
+  "WARRIOR": {
+    "title": "Warrior",
+    "year": 2017,
+    "photographer": "",
+    "photos": [
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/1.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/1.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/2.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/2.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/3.jpg",
+        "aspectRatio": 0.66,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/3.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/4.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/4.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/5.jpg",
+        "aspectRatio": 0.66,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/5.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/6.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/6.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/7.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/7.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/8.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/8.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/9.jpg",
+        "aspectRatio": 0.66,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/9.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/10.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/10.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/11.jpg",
+        "aspectRatio": 0.66,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/11.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/12.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/12.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/13.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/13.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/14.jpg",
+        "aspectRatio": 0.66,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/14.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/15.jpg",
+        "aspectRatio": 0.66,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/15.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/16.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/16.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/17.jpg",
+        "aspectRatio": 0.66,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/17.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/18.jpg",
+        "aspectRatio": 1.5,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/18.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      },
+      {
+        "src": "./src/images/Show Pictures/2017 Warrior/19.jpg",
+        "aspectRatio": 0.66,
+        "width": 100,
+        "height": 100,
+        "lightboxImage": {
+          "src": "./src/images/Show Pictures/2017 Warrior/19.jpg",
+          "caption": "Photo Credit: Peter Hsu"
+        }
+      }
+    ]
+  },
   "INK": {
     "title": "INK",
+    "year": 2016,
     "photographer": "Vincent Po",
     "link": "http://vincentpo.com/",
     "photos": [
@@ -538,6 +736,7 @@
   },
   "FORTUNE": {
     "title": "Fortune",
+    "year": 2015,
     "photographer": "Noel Valero",
     "link": "http://noelvalero.zenfolio.com/",
     "photos": [
@@ -986,6 +1185,7 @@
   },
   "D8TE_NIGHT": {
     "title": "D8te Night",
+    "year": 2014,
     "photographer": "Noel Valero",
     "link": "http://noelvalero.zenfolio.com/",
     "photos": [
@@ -1413,6 +1613,7 @@
   },
   "FLASHBACK": {
     "title": "Flashback",
+    "year": 2013,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2013 Flashback/1.jpg",
@@ -1787,6 +1988,7 @@
   },
   "HOLIC": {
     "title": "-Holic",
+    "year": 2012,
     "photographer": "Rose Nguyen",
     "link": "#",
     "photos": [
@@ -2164,6 +2366,7 @@
   },
   "AWAKENING": {
     "title": "Awakening",
+    "year": 2011,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2011 Awakening/1.jpg",
@@ -2601,6 +2804,7 @@
   },
   "PHASES": {
     "title": "Phases",
+    "year": 2010,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2010 Phases/1.jpg",
@@ -2903,6 +3107,7 @@
   },
   "UNCONDITIONAL": {
     "title": "Unconditional",
+    "year": 2009,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2009 Unconditional/1.jpg",
@@ -3043,6 +3248,7 @@
   },
   "HIDDEN_KISSES": {
     "title": "Hidden Kisses",
+    "year": 2008,
     "photos": [
       {
         "src": "./src/images/Show Pictures/2008 Hidden Kisses/1.jpg",
