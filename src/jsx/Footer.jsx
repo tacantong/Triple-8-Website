@@ -19,7 +19,7 @@ const Footer = React.createClass({
                         {this._renderIcon('http://www.youtube.com/triple8dancecompany', "fa fa-youtube")}
                     </div>
                     <div className="footer-copyright footer-section">
-                        COPYRIGHT &copy; TRIPLE 8 DANCE COMPANY 2016
+                        COPYRIGHT &copy; TRIPLE 8 DANCE COMPANY 2017
                     </div>
                     <div className="footer-message footer-section">
                         TRIPLE WHAAAT?!
